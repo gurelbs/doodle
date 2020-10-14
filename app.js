@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (doodlerBottomSpace > startPoint + 200){
                 fall()
             }
-        },30)
+        },22)
     }
 
     let fall = () => {
@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
             } else {
                 moveRight()
             }
-        },25)
+        },20)
     }
 
     let moveRight = () => {
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
             } else {
                 moveLeft()
             }
-        },25)
+        },20)
     }
 
     let moveStraight = () => {

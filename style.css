@@ -7,8 +7,8 @@ body{
     background: linear-gradient(to left, aqua, blue);
 }
 .grid {
-    margin: 1rem auto;
-    width: 400px;
+    margin: 1.5rem auto;
+    width: 450px;
     height: 600px;
     background-image: url('https://i.pinimg.com/originals/33/23/f8/3323f88657b9840a3e78604344690f1e.gif');
     background-position: center;
@@ -21,9 +21,9 @@ body{
     text-align: center;
 }
 .doodler{
-    width: 85px;
-    height: 50px;
-    background-image: url('./1775600.png');
+    width: 80px;
+    height: 80px;
+    background-image: url('./pngwing.com.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -37,6 +37,13 @@ body{
     80% {
         transform: rotate(-360deg)
     }
+}
+.platform{
+    width: 85px;
+    height: 15px;
+    background-color: yellow;
+    position: absolute;
+    border-radius: 5px;
 }
 .platform:nth-child(1){
     width: 85px;
@@ -56,10 +63,40 @@ body{
     background-color: red;
     position: absolute;
 }
-.platform{
+.platform:nth-child(10){
     width: 85px;
     height: 15px;
-    background-color: yellow;
+    background-color: white;
+    position: absolute;
+}
+.platform:nth-child(11){
+    width: 85px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+}
+.platform:nth-child(12){
+    width: 85px;
+    height: 15px;
+    background-color: white;
+    position: absolute;
+}
+.platform:nth-child(13){
+    width: 85px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+}
+.platform:nth-child(14){
+    width: 85px;
+    height: 15px;
+    background-color: white;
+    position: absolute;
+}
+.platform:nth-child(15){
+    width: 85px;
+    height: 15px;
+    background-color: red;
     position: absolute;
 }
 .platform:last-child{
@@ -70,4 +107,30 @@ body{
 }
 .start-over{
     font-size: 50px;
+    animation: colorful 6s ease-in-out infinite;
+    text-decoration: none;
+    font-weight: 900;
+    position: relative;
+}
+@keyframes colorful {
+    20% {
+        color: blue;
+        top: 10px;
+        font-weight: 100;
+    }
+    40% {
+        color: aqua;
+        top: 10px;
+        font-weight: 200;
+    }
+    60% {
+        color: white;
+        top: 10px;
+        font-weight: 300;
+    }
+    80% {
+        color: gold;
+        top: 10px;
+        font-weight: 400;
+    }
 }
